@@ -100,6 +100,28 @@ The app can identify the following objects:
   
 - Model Deployment: The trained model is hosted on Google's servers and accessed via a URL
   
-Image Classification: When a user selects an image, it's sent to the TMIC extension
-Inference: The extension processes the image through the neural network
-Results Display: Confidence scores for each category are returned and displayed
+- Image Classification: When a user selects an image, it's sent to the TMIC extension
+  
+- Inference: The extension processes the image through the neural network
+  
+- Results Display: Confidence scores for each category are returned and displayed
+
+**📊 Model Performance**
+
+- The model accuracy depends on:
+
+  - Quality and quantity of training images
+    
+  - Diversity of angles, lighting, and backgrounds during training
+    
+  - Similarity between training and real-world images
+
+**Tips for Better Accuracy:**
+
+- Capture at least 100+ images per class
+  
+- Use varied lighting conditions
+  
+- Include different angles and distances
+  
+- Avoid cluttered backgrounds during training
