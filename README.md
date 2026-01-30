@@ -94,7 +94,7 @@ The app can identify the following objects:
   
 - Upload the TeachableMachineImageClassifier extension (.aix file)
 
-  **🎓 How It Works**
+**🎓 How It Works**
 
 - Model Training: Images are collected for each object category and used to train a convolutional neural network via Teachable Machine
   
